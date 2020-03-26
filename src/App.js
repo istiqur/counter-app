@@ -30,7 +30,7 @@ class App extends Component {
   handleReset = counter => {
     const counters = [...this.state.counters];
     const index = counters.indexOf(counter);
-    counters[index].value=0;
+    counters[index].value = 0;
     this.setState({ counters });
   };
 
